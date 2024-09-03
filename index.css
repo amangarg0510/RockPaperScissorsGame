@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:  url(./images/backgrnd.jpg);
+    background-size: cover;
+
+}
+.head{
+    height: 10vh;
+    width: 100vw;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div h1{
+    height: 7vh;
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(8, 88, 91);
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+}
+.score{
+    display: flex;
+    height: 25vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.user{
+   line-height: 50px;
+   width :25vw;
+}
+.user p{
+    text-align: center;
+    font-size:50px ;
+    font-weight: 900;
+    background-color: azure;
+    border: 5px solid black;
+}
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap :35px;
+    height: 40vh;
+}
+.game img{
+    max-width: 400px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+ .game img:hover{
+    max-width: 430px;
+ }
+ 
+  .mess{
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    align-items: center;
+  }
+  .mess p{
+   text-align: center;
+   padding: 10px;
+    background-color: rgb(8, 88, 91);
+    font-size: xx-large;
+    border: 5px solid white;
+    color: white;
+  }
+
+  .res{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #reset{
+    background-color: black;
+    color: cornsilk;
+    padding: 10px;
+    border: 5px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+  }
