@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-image:  url(./images/backgrnd.jpg);
+    background-image:  url(backgrnd.jpg);
     background-size: cover;
 
 }
